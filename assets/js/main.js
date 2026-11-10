@@ -789,7 +789,7 @@
     const form = $('#enquiry');
     if (!form) return;
     const PHONE = '919942220037';
-    const EMAIL = 'emaxtechnologiesxx@gmail.com';
+    const EMAIL = 'emaxxtechnologies@gmail.com';
     const val = (n) => (form.elements[n] ? form.elements[n].value.trim() : '');
     const rules = [
       { name: 'name', err: 'f-name-err', ok: () => val('name').length >= 2 },
